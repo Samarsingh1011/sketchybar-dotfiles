@@ -43,12 +43,12 @@ do
   )
   # sketchybar --add space space."$sid" left --set space."$sid" "${space[@]}"
 done
-
 source $ITEMS_DIR/time.sh
 source $ITEMS_DIR/volume.sh
 source $ITEMS_DIR/battery.sh
 source $ITEMS_DIR/cpu.sh
 # source $ITEMS_DIR/media.sh
+source $ITEMS_DIR/ethernet.sh
 source $ITEMS_DIR/front_app.sh
 source $ITEMS_DIR/spaces.sh
 
